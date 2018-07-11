@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Squada+One');
+
+.pic {
+    border: 2px solid salmon;
+    border-radius: 50%;
+    margin-bottom: 35px;
+    padding : 0px;
+    width: 100%;
+}
+
+.pic:hover {
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+	border: 2px solid green;
+}
+
+.homeLeft {
+    border-bottom: 2px solid lightgreen;
+    margin: 10px 0px;
+}
+
+.homeRight {
+    border-bottom: 2px solid lightgreen;
+    font-family: 'Squada One';
+    margin: 10px 0px;
+}
+
+.raisedbox {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2), 0 -16px 24px 2px rgba(0,0,0,.14), 0 -6px 30px 5px rgba(0,0,0,.12), 0 -8px 10px -5px rgba(0,0,0,.2);
+}
+.greet {
+    color: black;
+    font-size:12vw;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.greetdesc {
+    color: black;
+    font-size:5vw;
+    line-height: 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.username {
+    font-size: 6vw;
+    padding: 2vh;
+    text-align: center;
+    text-transform: uppercase;
+}

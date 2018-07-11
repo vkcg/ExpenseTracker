@@ -1,0 +1,63 @@
+@media all and (min-width: 480px) {
+    .Account {
+      padding: 60px 0;
+    }
+  
+    .Account form {
+      margin: 0 auto;
+      max-width: 320px;
+      text-align: center;
+    }
+    .Account table {
+        width: 50vw;
+        margin-bottom: 100px;
+    }
+    .Account .btn-group sup {
+        color: brown;
+        cursor: pointer;
+        font-size: 1vw;
+    }
+    
+    .Account table p {
+        font-size: 2vw;
+    }
+}
+@media all and (max-width: 480px) {
+    .Account form {
+      margin: 0 auto;
+      max-width: 80%;
+      text-align: center;
+    }
+    .Account table {
+        width: 80vw;
+    }
+}
+.Account {
+    padding: 5vh 0;
+}
+.Account form {
+    margin: 0 auto;
+    text-align: center;
+}
+.Account sup {
+    color: brown;
+    cursor: pointer;
+    font-size: 3vw;
+}
+.Account table td {
+    color: grey;
+    border-bottom: 1px solid grey;
+    vertical-align:bottom;
+}
+.Account table tr td{
+    padding-top: 20px;
+}
+.Account p {
+    font-size: 4vw;
+}
+.Account button:focus {
+  border-color: limegreen;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}

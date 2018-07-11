@@ -1,0 +1,111 @@
+.logo {
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+
+.menu .hide {
+	display: none;
+}
+
+.menu .show {
+	display: inline-block;
+}
+
+.banner {
+	border-bottom: 5px solid grey;
+	width: 100%;
+	height: auto;
+}
+.navigation {
+	background: lightgray;
+	border-bottom: 1px solid green;
+}
+
+.menu .icon1 a:hover{
+	color: limegreen;
+}
+
+.menu .icon1 {
+	cursor: pointer;
+	display: none;
+}
+/* */
+@media screen and (max-width: 760px) {
+	.menu .icon1 {
+	  float: right;
+	  display: block;
+	}
+	.menu li:not(:last-child) {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 760px) {
+  	.menu.responsive {
+	  	position: relative;
+	}
+  	.menu.responsive li:last-child {
+		  cursor: pointer;
+		position: absolute;
+		right: 0;
+		top: 0;
+  	}
+	.menu.responsive .show {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	.menu.responsive ul li a {
+		display: block;
+		text-decoration: none;
+		margin-right: 0px;
+	}
+	.navigation .logo{
+		display: none;
+	}
+
+}
+/* */
+.menu {
+    padding: 0px;
+    margin: 0px;
+    min-height: 50px;
+}
+.menu ul {
+    list-style-type: none;
+    text-align: right;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu ul li {
+    display: inline-block;
+    min-height: 50px;
+}
+
+.menu ul li a {
+	display: block;
+	color: black;
+	padding: 15px 20px;
+	text-decoration: none;
+	margin-right: 0px;
+	-webkit-transition: padding 0.7s ease-in-out;
+	transition: padding 0.7s ease-in-out;
+}
+
+.menu a:hover{
+	background-color: black;
+	border-radius: 2px;
+	color:lightgreen;
+	padding: 15px 25px;
+	box-shadow: 0px 2px 4px green;
+	-webkit-transition: box-shadow 1s ease;
+	transition: box-shadow 1s ease;
+	-webkit-transition: color 1s 2s ease-in-out;
+	transition: color 1s 2s ease-in-out;
+	-webkit-transition: padding 0.7s ease-in-out;
+	transition: padding 0.7s ease-in-out;
+}
+
+
